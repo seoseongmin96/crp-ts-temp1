@@ -1,0 +1,8 @@
+.none a {
+    text-decoration: none;
+    color: black;
+}
+
+.none a:hover{
+    color: #2C5F2D;
+}
