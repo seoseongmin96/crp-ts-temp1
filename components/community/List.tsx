@@ -1,4 +1,5 @@
 import style from '@/styles/Float.module.css'
+import Link from 'next/link'
 export function List() {
     return(<>
         <div className="shadow p-3 mb-5 bg-white rounded">

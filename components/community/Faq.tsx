@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 //import { FileUploader } from "react-drag-drop-files";
 import style from '@/styles/Float.module.css'
-
+import Link from "next/link";
 const fileTypes = ["JPG", "PNG", "GIF"];
 
 export function Faq() {
@@ -55,7 +55,7 @@ export function Faq() {
           </p>
         </div>
       </div>
-      <a href="/community/contactUs">추가적으로 다른 질문이 있으신가요? 문의 주시기 바랍니다.</a>
+      <Link href="/community/contactUs">추가적으로 다른 질문이 있으신가요? 문의 주시기 바랍니다.</Link>
     </section>
     <a href="#" className={style.float}>
             <img src='https://ifh.cc/g/5y48Hl.png' className={style.my} style={{width:40+"px", height:40+"px"}}/>

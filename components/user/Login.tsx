@@ -1,4 +1,5 @@
 import style from '@/styles/Float.module.css'
+import Link from 'next/link'
 export function Login() {
     return(<>
         <h2 className="text-uppercase text-center mb-5">로그인</h2>
@@ -36,7 +37,7 @@ export function Login() {
 
     
     <div className="text-center">
-        <p>계정이 없으신가요? <a href="/user/register">가입하기</a></p> <br/>
+        <p>계정이 없으신가요? <Link href="/user/register">가입하기</Link></p> <br/>
        
         <button type="button" className="btn btn-link btn-floating mx-1">
         <i className="fa fa-facebook"></i>

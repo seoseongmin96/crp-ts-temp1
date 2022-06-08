@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@chatscope/chat-ui-kit-react": "^1.8.3",
+    "@chatscope/use-chat": "^1.4.0",
     "@ckeditor/ckeditor5-build-classic": "^34.1.0",
     "@ckeditor/ckeditor5-react": "^5.0.2",
     "@date-io/date-fns-jalali": "^2.14.0",

@@ -1,4 +1,5 @@
 import style from '@/styles/Float.module.css'
+import Link from 'next/link'
 export function Register() {
     return(<>
 <h2 className="text-uppercase text-center mb-5">무료로 가입하고 이용해보세요</h2>
@@ -36,8 +37,10 @@ export function Register() {
   <button type="button" className="btn btn-dark btn-block mb-4" style={{width: 600+"px"}}>가입하기</button>  
   </div>
 
-  <p className="text-center text-muted mt-5 mb-0">이미 회원이신가요? <a href="/user/login"
-      className="fw-bold text-body"><u>로그인</u></a></p>
+  <p className="text-center text-muted mt-5 mb-0">이미 회원이신가요? 
+  <Link href="/user/login"
+      className="fw-bold text-body">로그인</Link>
+      </p>
 
 </form>
 <a href="#" className={style.float}>

@@ -58,13 +58,13 @@ export function Home() {
             <h2> CRP 주요 프로그램</h2> <br/><br/> <br/>
             <div className="col-md-4">
               
-            <img src="https://cdn.aitimes.com/news/photo/202110/140852_142591_545.jpg" class="card-img-top" alt="..." style={{width: 250, height: 200 +"px", margin: "0 auto"}}/> <br/> <br/>
+            <img src="https://cdn.aitimes.com/news/photo/202110/140852_142591_545.jpg" className="card-img-top" alt="..." style={{width: 250, height: 200 +"px", margin: "0 auto"}}/> <br/> <br/>
               <h4>악보 표절 검사 및 분석</h4>
               <p>표절과 분석을 확인할 수 있습니다. </p>
               <p><a className="btn btn-secondary" href="/plagiarism/upload" role="button">시작하기 &raquo;</a></p>
             </div>
             <div className="col-md-4">
-            <img src="http://cdn.dtoday.co.kr/news/photo/201712/259123_175143_4232.jpg" class="card-img-top" alt="..." style={{width: 250, height: 200 +"px", margin: "0 auto"}}/>  <br/> <br/>
+            <img src="http://cdn.dtoday.co.kr/news/photo/201712/259123_175143_4232.jpg" className="card-img-top" alt="..." style={{width: 250, height: 200 +"px", margin: "0 auto"}}/>  <br/> <br/>
               <h4>음원 검색 및 추천</h4>
               <p>찾고 싶은 음악을 들려주세요.</p>
               <p><a className="btn btn-secondary" href="/music/musicPlay" role="button">시작하기 &raquo;</a></p>
@@ -127,6 +127,7 @@ export function Home() {
                     <div className="text-center text-md-left">
                     <a className="btn btn-white">
                         <Button onClick={e =>document.getElementById('contact-form')}>제출하기</Button></a>
+                        
                     </div>
                     <div className="status"></div>
                 </div>
