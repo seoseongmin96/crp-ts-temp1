@@ -22,4 +22,5 @@ export * from './music/MusicSearch'
 export * from './plagiarism/Result'
 export * from './plagiarism/Select'
 export * from './plagiarism/Upload'
-
+export * from './user/Register'
+export * from './user/Login'

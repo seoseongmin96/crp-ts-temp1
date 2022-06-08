@@ -2,6 +2,7 @@ import style from "@/styles/Layout.module.css";
 
 
 interface Props {
+  children?:any
     // any props that come into the component
 }
 
