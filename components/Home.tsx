@@ -56,24 +56,29 @@ export function Home() {
         </div> <br/> <br/> <br/>
         <div className="row">
             <h2> CRP 주요 프로그램</h2> <br/><br/> <br/>
-            <div className="col-md-4">
-              
-            <img src="https://cdn.aitimes.com/news/photo/202110/140852_142591_545.jpg" className="card-img-top" alt="..." style={{width: 250, height: 200 +"px", margin: "0 auto"}}/> <br/> <br/>
-              <h4>악보 표절 검사 및 분석</h4>
-              <p>표절과 분석을 확인할 수 있습니다. </p>
-              <p><a className="btn btn-secondary" href="/plagiarism/upload" role="button">시작하기 &raquo;</a></p>
+            <div className="col-md-3">
+              <img src="https://t1.daumcdn.net/thumb/R720x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/guest/image/Ns2Lzolp_YidGCMuW0ekr177BM8.PNG" className="card-img-top" alt="..." style={{width: 250, height: 200 +"px", margin: "0 auto"}}/> <br/> <br/>
+                <h4>악보 표절 검사</h4>
+                <p>표절과 분석을 확인할 수 있습니다. </p>
+                <p><a className="btn btn-secondary" href="/plagiarism/upload" role="button">시작하기 &raquo;</a></p>
             </div>
-            <div className="col-md-4">
-            <img src="http://cdn.dtoday.co.kr/news/photo/201712/259123_175143_4232.jpg" className="card-img-top" alt="..." style={{width: 250, height: 200 +"px", margin: "0 auto"}}/>  <br/> <br/>
-              <h4>음원 검색 및 추천</h4>
-              <p>찾고 싶은 음악을 들려주세요.</p>
-              <p><a className="btn btn-secondary" href="/music/musicPlay" role="button">시작하기 &raquo;</a></p>
+            <div className="col-md-3">
+              <img src="https://cdn.aitimes.com/news/photo/202110/140852_142591_545.jpg" className="card-img-top" alt="..." style={{width: 250, height: 200 +"px", margin: "0 auto"}}/>  <br/> <br/>
+                <h4>악보 분석</h4>
+                <p>찾고 싶은 음악을 들려주세요.</p>
+                <p><a className="btn btn-secondary" href="/music/musicPlay" role="button">시작하기 &raquo;</a></p>
             </div>
-            <div className="col-md-4">
-            <img src="https://t1.daumcdn.net/cfile/tistory/9975AD375B78D12B05" className="card-img-top" alt="..." style={{width: 250, height: 200 +"px", margin: "0 auto"}}/>  <br/> <br/>
-              <h4>작곡 프로그램</h4>
-              <p>누구나 손쉽게 작곡할 수 있어요.</p>
-              <p><a className="btn btn-secondary" href="/compose/compose" role="button">시작하기 &raquo;</a></p>
+            <div className="col-md-3">
+              <img src="http://cdn.dtoday.co.kr/news/photo/201712/259123_175143_4232.jpg" className="card-img-top" alt="..." style={{width: 250, height: 200 +"px", margin: "0 auto"}}/>  <br/> <br/>
+                <h4>음원검색 및 추천</h4>
+                <p>찾고 싶은 음악을 들려주세요.</p>
+                <p><a className="btn btn-secondary" href="/music/musicPlay" role="button">시작하기 &raquo;</a></p>
+            </div>
+            <div className="col-md-3">
+              <img src="https://t1.daumcdn.net/cfile/tistory/9975AD375B78D12B05" className="card-img-top" alt="..." style={{width: 250, height: 200 +"px", margin: "0 auto"}}/>  <br/> <br/>
+                <h4>작곡 프로그램</h4>
+                <p>누구나 손쉽게 작곡할 수 있어요.</p>
+                <p><a className="btn btn-secondary" href="/compose/compose" role="button">시작하기 &raquo;</a></p>
             </div>
         </div>
         <br/><br/>
@@ -101,7 +106,7 @@ export function Home() {
                             </div>
                             <div className="col-md-6">
                                 <div className="md-form mb-0">
-                                  <label htmlFor="email" className=""> 이메일</label>
+                                  <label htmlFor="email" className="">이메일</label>
                                   <input type="text" id="email" name="email" className="form-control"/>
                                 </div>
                             </div>
@@ -125,7 +130,7 @@ export function Home() {
                         </div>
                     </form><br/>
                     <div className="text-center text-md-left">
-                    <a className="btn btn-white">
+                    <a className="btn btn dark">
                         <Button onClick={e =>document.getElementById('contact-form')}>제출하기</Button></a>
                         
                     </div>

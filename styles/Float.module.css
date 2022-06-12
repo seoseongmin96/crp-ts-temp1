@@ -1,3 +1,21 @@
+.container{
+	display: flex;
+	justify-content: center;
+	margin-top: 5rem;
+	text-align: center;
+	width: 100vw;
+}
+.ttt{
+	width:100vw;
+}
+.button {
+	border: 1px solid black;
+	color: white;
+	background-color: black;
+	border-radius: 0.4rem;
+	padding: 0 0.3rem;
+	margin-bottom:1rem;
+}
 .float{
 	position:fixed;
 	width:60px;
@@ -9,11 +27,11 @@
 	border-radius:50px;
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
-    display: flex;
+
 }
 
 .my{
     position: relative;
-    left: 17%;
+    left: 1%;
     top: 17%;
 }

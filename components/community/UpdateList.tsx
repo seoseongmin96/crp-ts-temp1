@@ -35,7 +35,7 @@ export function UpdateList(){
             </div>
             
             <small className="d-block text-right mt-3">
-            <a href="#">업데이트</a>
+            <a href="/community/list">업데이트</a>
             </small>
         </div>
         <a href="/community/board"><button type="submit" className="btn btn-outline-dark">글쓰기</button></a>

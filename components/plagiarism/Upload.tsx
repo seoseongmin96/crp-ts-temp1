@@ -9,10 +9,10 @@ export function Upload() { // yarn add react-drag-drop-files
     setFile(file);
   };
   return (
-      <div style={{margin: "0 auto"}}>
+      <div className={style.container}>
           <form action="/plagiarism/select">
             <FileUploader handleChange={handleChange} name="file" types={fileTypes} /> <br/>
-            <button type="submit" className="btn btn-outline-dark">악보 업로드</button>
+            <button type="submit" className={style.button}>악보 업로드</button>
           </form>
           <a href="#" className={style.float}>
             <img src='https://ifh.cc/g/5y48Hl.png' className={style.my} style={{width:40+"px", height:40+"px"}}/>

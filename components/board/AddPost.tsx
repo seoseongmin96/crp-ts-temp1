@@ -1,4 +1,4 @@
-import { IArticle } from "@/types";
+ import { IArticle } from "@/types";
 import React, {FormEvent, useState} from "react";
 
     type Props = {
